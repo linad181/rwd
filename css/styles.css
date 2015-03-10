@@ -2,3 +2,45 @@
 body {
 	background: url("../img/bg.png");
 }
+
+/* Layout */
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+	background: white;
+}
+
+article section {
+	width: 50%;
+	float: left;
+}
+
+iframe, img {
+	width: 100%;
+	max-width: 100%
+}
+
+/* Desktop */
+@media (min-width: 960px) {
+	#top {
+		width: 300px;
+	}
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+	section img {
+		width: 80%;
+	}
+
+	section h1 {
+		text-transform: uppercase;
+		color: orange;
+	}
+}
+
+/* Mobile */
+@media (min-width: 480px) {
+	
+}
